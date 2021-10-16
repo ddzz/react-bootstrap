@@ -1,3 +1,52 @@
+# [2.0.0-rc.1](https://github.com/react-bootstrap/react-bootstrap/compare/v2.0.0-rc.0...v2.0.0-rc.1) (2021-10-15)
+
+
+### Bug Fixes
+
+* **Toast:** add optional event arg to Toast onClose ([#6068](https://github.com/react-bootstrap/react-bootstrap/issues/6068)) ([3fc5b57](https://github.com/react-bootstrap/react-bootstrap/commit/3fc5b57236986fe9515d1d696fd1542a3de52d37)), closes [#5726](https://github.com/react-bootstrap/react-bootstrap/issues/5726)
+* **ToastContext:** fix toast context type ([#6073](https://github.com/react-bootstrap/react-bootstrap/issues/6073)) ([3fa3b28](https://github.com/react-bootstrap/react-bootstrap/commit/3fa3b281b9e0400f2d4960c79e757d478d637b5d))
+
+
+### Features
+
+* **ListGroup:** add `numbered` prop ([#6072](https://github.com/react-bootstrap/react-bootstrap/issues/6072)) ([415b636](https://github.com/react-bootstrap/react-bootstrap/commit/415b6369dfefc17e24cc41ea4513cab7a4dd6a4e))
+* add NavbarOffcanvas component ([#5999](https://github.com/react-bootstrap/react-bootstrap/issues/5999)) ([0bb7b42](https://github.com/react-bootstrap/react-bootstrap/commit/0bb7b428250e4a587f753e8a81e8d7721d789811))
+
+
+
+
+
+# [2.0.0-rc.0](https://github.com/react-bootstrap/react-bootstrap/compare/v2.0.0-beta.6...v2.0.0-rc.0) (2021-09-21)
+
+
+### Bug Fixes
+
+* **ListGroupItem:** fix .active not being set with activeKey in ListGroup ([#6002](https://github.com/react-bootstrap/react-bootstrap/issues/6002)) ([cdaa039](https://github.com/react-bootstrap/react-bootstrap/commit/cdaa0399b0f31740a39efebc0ad08d2f53788c3e))
+* **Toast:** fix fade animation ([#6004](https://github.com/react-bootstrap/react-bootstrap/issues/6004)) ([0237a14](https://github.com/react-bootstrap/react-bootstrap/commit/0237a14d1af749b8eda407d331f6ab3815812850))
+
+
+* refactor(Col)!: remove default span value in breakpoint object (#6014) ([ec285fb](https://github.com/react-bootstrap/react-bootstrap/commit/ec285fb96bb2c0c312c1241b0a040a78e92aa86b)), closes [#6014](https://github.com/react-bootstrap/react-bootstrap/issues/6014)
+* refactor(CardColumns)!: remove component (#6030) ([d36718f](https://github.com/react-bootstrap/react-bootstrap/commit/d36718f2a755e585bdab9f09cb467095cf83f8b0)), closes [#6030](https://github.com/react-bootstrap/react-bootstrap/issues/6030)
+* fix(FormCheck)!: use feedbackType to control feedback type (#6015) ([ab9e080](https://github.com/react-bootstrap/react-bootstrap/commit/ab9e08094ef5cd4b7245323da09932b1c9df2d7f)), closes [#6015](https://github.com/react-bootstrap/react-bootstrap/issues/6015)
+
+
+### Features
+
+* add SSRProvider ([#6031](https://github.com/react-bootstrap/react-bootstrap/issues/6031)) ([ca97dc8](https://github.com/react-bootstrap/react-bootstrap/commit/ca97dc811b3c9845ed17ae42886e6c401613f034))
+* add Stack component ([#5987](https://github.com/react-bootstrap/react-bootstrap/issues/5987)) ([57be243](https://github.com/react-bootstrap/react-bootstrap/commit/57be24396cc59882525486530ee4424ce94e3067))
+* **Collapse:** add horizontal animation ([#5993](https://github.com/react-bootstrap/react-bootstrap/issues/5993)) ([c8f0d1d](https://github.com/react-bootstrap/react-bootstrap/commit/c8f0d1d358f9eca60c12a259e502b50da42c624a))
+
+
+### BREAKING CHANGES
+
+* When using objects in `Col` breakpoint props, `span` is no longer `true` by default
+* Removed CardColumns because it was dropped in Bootstrap 5
+* FormCheck feedback type is now controlled by `feedbackType` instead of `isValid` and `isInvalid`.
+
+
+
+
+
 # [2.0.0-beta.6](https://github.com/react-bootstrap/react-bootstrap/compare/v2.0.0-beta.5...v2.0.0-beta.6) (2021-08-24)
 
 
